@@ -1,0 +1,12 @@
+CHECK "Ponder" 1
+SPIN "Hash" 64
+CHECK "OwnBook" 1
+SPIN "MultiPV" 1
+STRING "Book File" 
+CHECK "use lmr" 1
+CHECK "null move pruning" 1
+CHECK "deterministic" 0
+CHECK "Best Line" 1
+SPIN "King Safety Aggressiveness" 6
+SPIN "move overhead milliseconds" 20
+SPIN "Drawscore" -5

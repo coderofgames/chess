@@ -1,0 +1,97 @@
+Todo 20th Jan012
+
+1) add elements to header
+	-whiteELO
+	-blackELO
+	//-Event  -- already implemented
+	-Time control
+	//-ECO
+
+2) Write scores into game annotation
+	- and the time per move
+	- make option
+
+3) //print an HTML table for tournament results			.. time to complete 2 hours
+	- also have standings, maybe graphs, maybe look for component for graphs
+	//- Engine vs Engine match 
+		ready for testing / improvement
+		the header is implemented
+		writing event name into header
+		ready for retest
+		done
+		bug, last side to use white is writing into white, so the win / loss stats are messed up
+
+	
+4) Tidy up the graph					time to complete 3 hours
+	make clickable ? maybe, probably, 
+		need traversal
+
+5) Add all buttons to database, remove item, etc     ... time to complete .. 1 hour
+	ready for testing
+
+6) Engine Personality					time to complete 2 hours
+	 - hard code them to start with
+
+7) Tournament button			time to complete ... 1 day
+	- make tournament types
+
+8) Think about ELO calculation, write file to disk, load external program
+	-regans papers
+	-spawn a bayeselo
+	-spawn a elostat
+	-spawn a *other elo calculator that I can't remember*
+
+9) Graphics ... time to complete ... 1 day
+	-add good looking extra pieces
+	- add good looking square themes (texture decimator)
+	
+
+
+10) Setup position, this needs to be fixed ... time to complete: 1 hour
+	// solution, load default textures with the board anyway :(
+	// store big piece textures in BoardCanvas, small textures in Chessboard (bad but optimal)
+
+11) make a D3DMode toggle   ... time to complete: 1 hour  actual time ... 2 hours, taking break
+	// ready for retest
+	Think about the piece textures loaded for default
+
+12) The engine vs engine time settings        time to complete: 3 hour
+	- make set increment and time
+	- make go depth 5 games work properly
+	- optionally ignore time-outs, play to completion w/l/d
+
+13) make at least a polyglot book display      time to complete: 1 hour
+	ready for testing
+	working ... 
+	set up bar chart display
+	modify polyglot book builder
+
+14) fix the media viewer to load files from disk       time to complete: 20 mins
+
+15) consider behaviour of analyze button on pipe panel in game mode.
+
+16) some sort of idea      time to complete  1 day, depends on full analysis button
+
+17) unify book with tree canvas ... time to complete 1 day
+
+18) add appropriate headers to all windows
+
+19) stop match / resign button for human play
+	ready for testing
+
+20) try to see the checkmate (refresh board at the end of a game) 
+
+21) tree canvas seriously causes problems when browsing games in game mode if tree canvas has lastmoveptr
+	temporary solution
+	ready for retest
+
+22) start playing the game from black-to-move from a setup position causes slight issues
+
+23) add resign button, check time in player boards, time to complete 10 minutes,  (see 19.)
+	resign button ready for testing
+
+24) make the clock display properly 
+	// ready for retest
+
+25) add option to make d3d canvas not recreate / reset device
+	// ready for testing

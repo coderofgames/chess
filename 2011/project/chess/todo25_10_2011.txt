@@ -1,0 +1,143 @@
+problems with EPN_to_PGN
+------------------------
+
+//1. empasse pawns - something in the makemove2 function
+//2. 2 knights have access to the same square and are not pinned, e.g c4 and d5 instead of Ncb6 the move appears as Nc4b6
+//3. rules ... pawn is pinned on the same file as the Queen - cannot move.
+4. need to select what is promoted - and add this to epntogpn i.e. d1=Q
+//5. Qec1 actually works 
+//6. Qhxd2 actually works
+//7. Unneeded Qdxd5 when the other Queen does not have access
+//8. Qbb1 when both Queens are on the b file
+//9. Qbd1 when both Queens are on the b file
+//10. Qdf1 both Queens on 1st rank
+//11. Qfc4 when other Queen is on b1 -- see above ... 
+//12. Qf7f5 when the other 2 queens are not on the f-file
+//	same problem ... Qg6g4 when the other 2 queens are not on the g-file
+
+//13. king cannot move to d4 in mysterious position ?? maybe this is fixed? still need testing
+//14. h file queen gets stuck
+//15. king sometimes walks into check??
+//16. empasse pawns EPN code
+//17. Queen epn code solved
+//18. rules ... mysteriously h5 Queen cannot move to g4 in the Qh3g4 situation
+//19. innacurate check detection ... detected checks with small modification of calling MakeMove2 within epn_to_pgn() before check is detected 
+	//, now only problems must be in IsMoveValid()
+//20. bishops hop out of pin -- bug found in SetBoard confusing the two bishops
+
+//21. IsRankSpanBlockedIgnoringKing ... need a black and white version
+//22. check detection fixed as well as ghost check problem, needed to call SetBoard(fen) after making a move to ensure all the pieces
+//	were allocated correctly, otherwise some strange effect occurs -- so perhaps slightly unsolved but clearing up and resetting the position worked
+// rooks are working
+
+
+
+
+Bugs
+----
+//Dealing with the Base node, navigation
+//Loading pgns with FEN strings
+// navigation of pgns with FEN strings
+// save pgn to disk
+possibly some extra white space on pgns saved to disk
+might want to handle dollar symbols at some stage
+percent symbol -- low priority since it is mainly unused
+
+graphics -- need to show game data above notation
+graphics -- need to have the notation text remove the curly braces
+graphics -- faster text window -- virtual window calculated and redraw only replaces the last selected and next selected
+
+//Big monster bug with text overwrite - calling getTextExtent() on an empty string
+
+
+//save to clipboard
+//Load from Clipboard
+// Bug on darksquare bishops - they were pawns because the flag was wrongly used
+
+need to add correct handling of !! symbols
+
+// merge game from clipboard
+
+
+
+//current problems. The save game is printing the same variation multiple times ... why?
+//need to set board->mov = 1 in the variation handler.
+
+//encountered major chaos with pgn loading/saving ... so I need to fully test right?
+//testing procedure begins
+// --program is more stable now
+
+//I have encountered the strangest bug, the game prints out whites variation b3 twice
+//and now it is saved twice
+
+// move 14. dr chess checkmate warning
+
+//important bug fixed ... the ghost bishop bug was evident in games loaded from disk.
+ 
+
+//problem with ... whitevariation-blackvariation ... its put as another mainline
+// SOLVED at least for black variations
+
+
+Want "NEW GAME" this means multiple PGN loads, 
+list of filenames stored for each sessions
+save temporary files
+huge database viewport
+
+CLOCKS!
+possible ICC connection?
+parse engine Kibitz output
+Load Multiple Engines
+
+
+IMPORTANT TASKS ...
+-------------------
+1) Spawn Multiple Boards
+2) Create/refresh new game
+3) Undo action (e.g. delete)
+4) Redo action
+
+Ideas (maybes)
+--------------
+temporay data directory, for files saved during play ... i.e. load game, edit game, select other game, go back to previous game (and fens are gone, so the data is regenerated but the variations are messed up if added to the end)
+
+
+
+stack of instructions
+---------------------
+e.g. 
+instruction   id      data1    at pos in tree
+-----------------------------------------------
+makemove     num     e2e4      14. variation Nd5 16. whites move
+
+
+means insert e2e4 in move 14 variation Nd5 at move 16 for whites move
+
+
+created move stack contains meta data, the moves are remade if undone
+
+deleted subtree stack...
+-----------------------
+if a variation is deleted perhaps the entire subtree should be stored in a type of stack.
+the deleted subtree is simply cut from the tree and stored in a stack
+
+instruction    id     at move     isVariation     move        color
+-----------------------------------------------------------------------
+deleteSubTree  num       15       true             Nbd7       black
+
+subtree stack contains
+
+deleted items
+-------------
+15 ... Nbd7
+3...f4
+
+
+etc
+then Nbd7 and completed subtree can be inserted into a variation of black for move 15.
+
+
+
+
+
+

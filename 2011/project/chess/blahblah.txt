@@ -1,0 +1,8 @@
+[Event "blah blah"]
+[Site "?"]
+[Date "????.??.??"]
+[White "name1"]
+[Black "name2"]
+[Result "?"]
+
+1. f4 g5 2. b4 d5 

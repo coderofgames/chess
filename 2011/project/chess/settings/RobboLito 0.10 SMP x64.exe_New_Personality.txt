@@ -1,0 +1,6 @@
+SPIN "Hash" 128
+SPIN "MaxThreads" 8
+SPIN "MultiPV" 1
+SPIN "SplitDepth" 14
+CHECK "Ponder" 0
+CHECK "ExtraInfo" 0

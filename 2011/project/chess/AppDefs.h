@@ -1,0 +1,5 @@
+#define MASTER_VERSION "V1.00c"
+
+// Misc
+#define NBR_KIBITZ_LINES 4
+#define BORDER_COMMON wxBORDER_SUNKEN   //wxBORDER_SIMPLE

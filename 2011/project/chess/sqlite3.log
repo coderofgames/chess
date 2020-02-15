@@ -1,0 +1,21 @@
+﻿Build started 27/02/2012 05:17:28.
+     1>Project "C:\Users\dave\Desktop\downloads\sqlite\sqlite3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\sqlite3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt shell.c sqlite3.c
+         sqlite3.c
+         shell.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\dave\Desktop\downloads\sqlite\x64\Debug\sqlite3.lib" /NOLOGO x64\Debug\shell.obj
+         x64\Debug\sqlite3.obj
+         sqlite3.vcxproj -> C:\Users\dave\Desktop\downloads\sqlite\x64\Debug\sqlite3.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\sqlite3.unsuccessfulbuild".
+         Touching "x64\Debug\sqlite3.lastbuildstate".
+     1>Done Building Project "C:\Users\dave\Desktop\downloads\sqlite\sqlite3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.70

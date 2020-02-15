@@ -1,0 +1,11 @@
+SPIN "Hash" 128
+SPIN "Threads" 8
+SPIN "Split_Depth" 10
+CHECK "Ponder" 0
+SPIN "Contempt" 1
+CHECK "Analysis_Contempt" 0
+SPIN "MultiPV" 1
+STRING "GaviotaTbPath" 
+SPIN "GaviotaTbCache" 64
+SPIN "Hard_Probe_Depth" 24
+SPIN "Soft_Probe_Depth" 16

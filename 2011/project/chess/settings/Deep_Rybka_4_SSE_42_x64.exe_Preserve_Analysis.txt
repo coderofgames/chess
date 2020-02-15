@@ -1,0 +1,35 @@
+SPIN "Hash" 32
+CHECK "Log" 0
+CHECK "xLog" 0
+SPIN "Max CPUs" 2048
+SPIN "CPU Usage" 100
+STRING "NalimovPath" 
+SPIN "NalimovCache" 1
+COMBO "NalimovUsage" Rarely
+COMBO "Child Process Priority" BelowNormal
+CHECK "Always Score Main Move" 0
+CHECK "Display Upperbounds" 0
+CHECK "Preserve Analysis" 0
+STRING "Hash File" 
+CHECK "Ponder" 0
+SPIN "MultiPV" 1
+SPIN "MultiPV_cp" 20000
+SPIN "TC Buffer" 3
+SPIN "TC Normal Move Time" 80
+SPIN "TC Max Move Time" 100
+SPIN "White Pawn cp" 0
+SPIN "Black Pawn cp" 0
+SPIN "White Knight cp" 0
+SPIN "Black Knight cp" 0
+SPIN "White King Bishop cp" 0
+SPIN "Black King Bishop cp" 0
+SPIN "White Queen Bishop cp" 0
+SPIN "Black Queen Bishop cp" 0
+SPIN "White Rook cp" 0
+SPIN "Black Rook cp" 0
+SPIN "White Queen cp" 0
+SPIN "Black Queen cp" 0
+SPIN "Rook Endgame Scaling" 100
+CHECK "UCI_LimitStrength" 0
+SPIN "UCI_Elo" 1200
+STRING "UCI_EngineAbout" 

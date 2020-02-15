@@ -1,0 +1,140 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[White "?"]
+[Black "?"]
+[Result "?"]
+
+
+
+
+[White "TinkerFICS"]
+[Black "PKPKPKPKP"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.01.01"]
+[WhiteElo "2200"]
+[BlackElo "1493"]
+[ECO "B00 King's pawn opening"]
+
+1. e4 
+
+
+[Event ""]
+[Site "?"]
+[Date "????.??.??"]
+[White ""]
+[Black ""]
+[Result "?"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O ( 8. Kf1 ) 
+
+
+[White "BigMomma"]
+[Black "GnuCheese"]
+[Event "fics server game, rated lightning match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.03.04"]
+[WhiteElo "3042"]
+[BlackElo "2414"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 O-O 11. Bh6 Ne8 12. Rad1 Bf6 13. Bg5 Bxg5 14. Qxg5 b4 15. Na4 Nf6 16. Qd2 Nxe4 17. Qxb4 d5 18. c4 a5 19. Qb6 Qxb6 20. Nxb6 Ra6 21. Nxc8 Rxc8 22. cxd5 a4 23. Rc1 Rd8 24. Bc4 Rb6 25. Rfd1 exd5 26. Bxd5 Nf6 27. Ne6 fxe6 28. Bxe6+ Kf8 29. Rxd8+ Ke7 30. Rd4 Kxe6 31. Rc2 a3 32. b3 Rd6 33. Rxd6+ Kxd6 34. Rc4 Nc6 35. Ra4 Ke5 36. Rxa3 Nd5 37. Ra6 Nd4 38. Ra7 Ne6 39. Rd7 h6 40. a4 g6 41. a5 Nc5 42. Rh7 h5 43. Rg7 Kf5 44. Rg8 Nb4 45. Rb8 Nba6 46. Rb6 Nc7 47. b4 N5e6 48. a6 h4 49. a7 Nd4 50. b5 Ne2+ 51. Kf1 Nd4 52. Rb8 
+
+
+[White "mycomp"]
+[Black "TheConfusedComp"]
+[Event "fics server game, rated lightning match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.08.06"]
+[WhiteElo "2991"]
+[BlackElo "2865"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 O-O 11. Bh6 Ne8 12. Rfd1 Bf6 13. Bg5 Bxg5 14. Qxg5 Nf6 15. a3 Re8 16. Rd3 h6 17. Qh4 Nbd7 18. Rg3 Kf8 19. Rf3 Bb7 20. Rd1 Kg8 21. Rg3 Kh8 22. Nd5 Bxd5 23. exd5 exd5 24. Nf5 Re4 25. f4 Rg8 26. Rh3 Nh7 27. Bxd5 Qxc2 28. Rhd3 g5 29. R3d2 Qc5+ 30. Qf2 Rxf4 31. Qxc5 Nxc5 32. Nxh6 Rf8 33. Nxf7+ R8xf7 34. Bxf7 Rxf7 35. Rxd6 Ra7 36. R1d5 Rc7 37. Re5 Nd7 38. Re8+ Nhf8 39. h3 Kg8 40. Re7 g4 41. hxg4 a5 42. Rd5 Rc5 43. Rxc5 Nxc5 44. Re5 Nfd7 45. Rg5+ Kf7 46. b4 axb4 47. axb4 Nd3 48. Rxb5 N3e5 49. Rd5 Ke6 50. Rd4 Nc6 51. Rf4 Ke5 52. Rf5+ Ke6 53. b5 Nd8 54. Rf1 Nf7 55. Kh2 Ng5 56. Kg3 Kd6 57. Kh4 Ne6 58. g5 Kc5 59. g6 Kxb5 60. Rf7 Ndc5 61. g4 Ne4 62. Re7 N4c5 63. g7 Nxg7 64. Rxg7 Nd3 65. Rd7 Nf4 66. Rf7 Ne6 67. Rf6 Nc7 68. g5 Kc5 69. g6 Ne8 70. Kg5 Kd5 71. Rf8 Nc7 72. Rf7 Kd6 73. Rxc7 Kxc7 74. Kf6 Kc6 75. Ke5 Kc5 76. g7 Kc4 77. g8=Q+ Kd3 78. Qb3+ Ke2 79. Ke4 Kf2 80. Qf3+ Kg1 81. Qe2 Kh1 82. Kf3 Kg1 83. Qg2# 
+
+
+[White "Rakanishu"]
+[Black "MegaBot"]
+[Event "fics server game, rated lightning match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.01.15"]
+[WhiteElo "2951"]
+[BlackElo "2983"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 O-O 11. Bh6 Ne8 12. Rad1 Bd7 13. Nf3 a5 14. a4 b4 15. Ne2 Nc6 16. Nf4 Kh8 17. Bg5 h6 18. Bxe7 Nxe7 19. e5 Nf5 20. exd6 Nexd6 21. Qg4 Rad8 22. Ne5 Bc8 23. Rfe1 Nb7 24. c4 bxc3 25. Rc1 Qb6 26. Rxc3 Nbd6 27. Nc6 Rde8 28. h3 Rg8 29. Ne5 Bb7 30. Rd1 g6 31. Qe2 Rg7 32. Nd7 Qd8 33. Nc5 Qb8 34. Nfd3 Nd4 35. Qe5 N6f5 36. Qxb8 Rxb8 37. Rd2 Bf3 38. Kh2 Ba8 39. Ne5 Rb4 40. Bd1 f6 41. Ng4 Ra7 42. Nxf6 Kg7 43. Nfd7 Bd5 44. Ne5 Kf6 45. Ned3 Rb8 46. Nf4 Rb4 47. Ncd3 Rc4 48. Nxg6 Rxc3 49. bxc3 Kxg6 50. cxd4 Kf6 51. Nf4 Rb7 52. Nxd5+ exd5 53. g4 Nd6 54. Rd3 Rb4 55. Bb3 Nc4 56. Bc2 Nd6 57. Kg2 Kg5 58. Rc3 Kf6 59. Rc6 Ke7 60. Rc5 Rxd4 61. Rxa5 Ke6 62. Bh7 Kd7 63. Ra7+ Kc6 64. Bg6 Rc4 65. Rh7 Rxa4 66. Rxh6 Kc5 67. g5 Ra2 68. h4 Kd4 69. Bb1 Ra6 70. Re6 Rb6 71. g6 Rb8 72. h5 Ne8 73. h6 Ng7 74. hxg7 Rg8 75. Re7 Kc5 76. Rd7 Kc6 77. Bf5 Re8 78. Be6 Rxe6 79. g8=Q Kxd7 80. Qh7+ Kd6 81. g7 Re8 82. Qg6+ Kd7 83. Qf7+ Kd8 84. g8=Q Rxg8+ 85. Qxg8+ Kd7 86. Qxd5+ Kc8 87. Qf7 Kb8 88. Kf3 Ka8 89. Ke4 Kb8 90. Kd5 Kc8 91. Kc6 Kb8 92. Qb7# 
+
+
+[White "mycomp"]
+[Black "TheConfusedComp"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.08.03"]
+[WhiteElo "2668"]
+[BlackElo "2639"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 O-O 11. Bh6 Ne8 12. Rad1 Bd7 13. Nf3 Nc6 14. Bf4 Qb7 15. e5 dxe5 16. Nxe5 Nxe5 17. Bxe5 Bc6 18. Ne2 Nf6 19. Nd4 Rfd8 20. Nxc6 Qxc6 21. c3 Qe4 22. Bd4 Qf5 23. Qe3 Rac8 24. Rfe1 b4 25. Qe2 bxc3 26. Bxc3 Bd6 27. g3 Be7 28. Kg2 Nd5 29. Bxd5 Rxd5 30. Qxa6 Rcd8 31. Qe2 Bf6 32. Bxf6 gxf6 33. b3 Rc8 34. Rxd5 Qxd5+ 35. Qf3 Qa5 36. Rd1 Qxa2 37. Qxf6 Qxb3 38. Rd7 e5 39. Qg5+ Kf8 40. Qxe5 Kg8 41. Qg5+ Kf8 42. Qf5 Kg7 43. Qg4+ Kf8 44. Qd4 Kg8 45. Rd5 h6 46. Rd6 Qb7+ 47. Kh3 Kh7 48. Qf4 Kg8 49. Qg4+ Kh7 50. Qf5+ Kg7 51. Qe5+ Kh7 52. Qh5 Kg8 53. f4 Re8 54. Rxh6 Qb2 55. Qf5 Kf8 56. Qc5+ Kg7 57. Qg5+ Kf8 58. f5 Qe5 59. Qg4 Ke7 60. Qb4+ Kd7 61. Qb7+ Kd8 62. Qxf7 Rh8 63. Rh7 Rxh7+ 64. Qxh7 Qd5 65. f6 Qe6+ 66. g4 Qe3+ 67. Kh4 Kc8 68. Qf5+ Kd8 69. Kh5 Qe8+ 70. f7 Qf8 71. g5 Qh8+ 72. Kg4 Qf8 73. g6 Kc7 74. Qf6 Qc8+ 75. Kg3 Qf8 76. g7 Qa3+ 77. Kg4 Qc5 78. g8=Q Kb7 79. Qb2+ Kc7 80. Qgb8+ Kd7 81. Qe8+ Kd6 82. Qf6+ Kc7 83. Qfd8+ Kb7 84. Qa8+ Kc7 85. Qab8# 
+
+
+[White "BigMomma"]
+[Black "SlowBox"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.03.08"]
+[WhiteElo "2654"]
+[BlackElo "2128"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 Nc6 11. Nxc6 Qxc6 12. Re1 Bb7 13. Qxg7 Rg8 14. Qh6 Rg6 15. Qh3 Kf8 16. f3 Bd8 17. Ne2 Ba5 18. c3 e5 19. Ng3 Bc8 20. Nf5 Bb6+ 21. Kh1 h5 22. Qh4 Rb8 23. Rd1 Bc5 24. Bh6+ Ke8 25. Bg5 Bxf5 26. exf5 Bf2 27. Bxf7+ Kf8 28. Qxf2 Rxg5 29. Be6 Rb7 30. h4 Rgg7 31. Qd2 Rb6 32. Qh6 Ng8 33. Qh8 Qc7 34. f6 Rf7 35. Rd5 Rc6 36. Rad1 Rc4 37. Bxf7 Qxf7 38. Rxd6 Rxh4+ 39. Kg1 Qa7+ 40. Kf1 Rh1+ 41. Ke2 Rxd1 42. Rxd1 Kf7 43. Rd6 Kf8 44. Rd8+ Kf7 45. Qxg8+ Kxf6 46. Rd6+ Ke7 47. Re6+ Kd7 48. Qf7+ Kc8 49. Re8# 
+
+
+[White "Azkikr"]
+[Black "GlaurungC"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.08.19"]
+[WhiteElo "2617"]
+[BlackElo "2579"]
+[ECO "B90 Sicilian, Najdorf, Lipnitzky attack"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. O-O b5 8. Bb3 Be7 9. f3 O-O 10. Be3 Bd7 11. a4 b4 12. Na2 e5 13. Ne2 Nc6 14. Qd2 Rb8 15. Bc4 Be6 16. Bxa6 d5 17. Bb5 Rc8 18. Bxc6 Rxc6 19. Nxb4 Bxb4 20. Qxb4 Rxc2 21. Ng3 Rc4 22. Qa3 dxe4 23. fxe4 Nxe4 24. Nxe4 Rxe4 25. Bc5 Re8 26. b4 Bc4 27. Rfe1 Rxe1+ 28. Rxe1 Qd5 29. Rc1 h6 30. Qf3 e4 31. Qc3 Bd3 32. Be3 Qa2 33. a5 Re6 34. h3 Rg6 35. Qd2 Qe6 36. Kh2 Qe5+ 37. Bf4 Qe8 38. Rc5 Rc6 39. Qc3 Rxc5 40. Qxc5 Qd7 41. Qb6 Qf5 42. Qd6 f6 43. Be3 Qf1 44. Qd5+ Kh7 45. Qe6 Kg6 46. Qd6 Bb5 47. Qg3+ Kf7 48. Qd6 Kg6 49. Bc5 Qc4 50. Qg3+ Kf7 51. Qd6 Kg6 52. Qf4 h5 53. Qg3+ Kh7 54. Qd6 Kg6 55. Qb6 Qf1 56. Be3 Qe2 57. Qc5 Bd3 58. Kg3 Qe1+ 59. Bf2 Qe2 60. Kh4 Kh6 61. Qf5 g5+ 62. Kg3 h4+ 63. Kh2 Qb2 64. Bc5 Kg7 65. Qe6 Qc1 66. Qd6 Qf1 67. Qe7+ Kg6 68. Qe8+ Kf5 69. Qc8+ Ke5 70. Bd4+ Kd6 71. Be3 Bc4 72. Qe8 Qd3 73. Ba7 Qg3+ 74. Kh1 Qe1+ 75. Bg1 Bd5 76. Qb8+ Kd7 77. Qa7+ Ke6 78. Qb6+ Kf5 79. Qd4 Ke6 80. a6 Qe2 81. a7 Qa6 82. Qd1 Qc4 83. Qg4+ Ke5 84. Bh2+ Kd4 85. Qd1+ Kc3 86. Qa1+ Kxb4 87. Bd6+ Kb3 88. a8=Q Bxa8 89. Qxa8 Kc2 90. Qa7 Kd3 91. Qa3+ Kc2 92. Kh2 Qd5 93. Be7 Qe5+ 94. Kh1 Qb5 95. Qe3 Qf1+ 96. Kh2 Qd3 97. Qf2+ Kd1 98. Bxf6 Qd6+ 99. Kh1 e3 100. Qf3+ Kd2 101. Bxg5 Qc5 102. Qf4 Kd3 103. Kh2 Qb6 104. Qxe3+ Qxe3 105. Bxe3 Kxe3 106. g4 Kf4 107. Kg1 Ke5 108. Kf1 Kf4 109. Kf2 Ke4 110. Ke2 Kf4 111. Kd3 Kg5 112. Ke3 Kf6 113. Ke4 Kg6 114. Kf4 Kf6 115. g5+ Kg6 116. Kg4 Kf7 117. Kxh4 Kg6 118. Kg4 Kf7 119. Kf5 Kg7 120. g6 Kf8 121. Kf6 Ke8 122. g7 Kd8 123. g8=Q+ Kc7 124. Ke6 Kc6 125. Qg5 Kb6 126. Kd6 Kb7 127. Qb5+ Ka7 128. Kc6 Ka8 129. Qb7# 
+
+
+[White "Horsian"]
+[Black "GnuCheese"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.06.10"]
+[WhiteElo "2481"]
+[BlackElo "2271"]
+[ECO "B90 Sicilian, Najdorf, Lipnitzky attack"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. O-O b5 8. Bb3 Be7 9. Qf3 Qb6 10. Bg5 O-O 11. Rad1 Nbd7 12. Qg3 Kh8 13. Be3 Qb7 14. f3 Nc5 15. e5 dxe5 16. Qxe5 Nfd7 17. Qg3 Nf6 18. a3 Bd7 19. Ba2 Na4 20. Nxa4 bxa4 21. Rb1 Rac8 22. c3 Rc5 23. Rfe1 Rd8 24. h4 Rdc8 25. c4 Nh5 26. Qh2 Nf6 27. b4 axb3 28. Nxb3 R5c7 29. Na5 Qa8 30. Bf4 Bd8 31. Re5 Rb8 32. Rb4 Rcc8 33. Re2 Rb5 34. cxb5 Bxa5 35. Rb1 Bxb5 36. Reb2 Bc3 37. Rb3 Qa7+ 38. Kh1 Qd4 39. Bc1 Ne8 40. Qf4 Qd1+ 41. Kh2 Rc4 42. Be3 Qd7 43. Qg3 Bf6 44. Bg5 Bxg5 45. hxg5 Rc5 46. Rb4 Qe7 47. f4 Qd6 48. R1b3 Kg8 49. Rc3 g6 50. Rxc5 Qxc5 51. Qe1 a5 52. Rb1 Ba4 53. Qc1 Qf2 54. Rb2 Qd4 55. Qd2 Qc5 56. Rb8 Bc6 57. Rc8 Qb5 58. Qd6 Bd7 59. Rd8 Bc6 60. Kg3 Kg7 61. Qd4+ Kg8 62. Bc4 Qb1 63. Kf2 Qh1 64. Bf1 Qh4+ 65. Kg1 Qe1 66. Rb8 a4 67. Qc5 Qe4 68. Rd8 Kg7 69. Qc3+ e5 70. fxe5 Kg8 71. Qc5 Kg7 72. Rc8 Bd7 73. Rb8 Kg8 74. Rb4 Qf5 75. Rd4 Ng7 76. Bd3 Qe6 77. Qc7 Be8 78. Rd8 Qg4 79. Qe7 Qg3 80. Kf1 Qe3 81. Be2 Qf4+ 82. Ke1 Qc1+ 83. Kf2 Qf4+ 84. Bf3 Qh4+ 85. g3 Qc4 86. Rxe8+ Nxe8 87. Qxe8+ Kg7 88. Qe7 Qc3 89. Be4 Qd2+ 90. Kf3 Qd1+ 91. Kf4 Qd2+ 92. Kg4 Qd4 93. Qf6+ Kg8 94. Qf4 Qd7+ 95. Kh4 Qd1 96. Qg4 Qd2 97. Kh3 Kg7 98. Bc6 Qc3 99. e6 Qe5 100. exf7 Kxf7 101. Qd7+ Kf8 102. Qd8+ Kg7 103. Bd5 
+
+
+[White "ArasanX"]
+[Black "Thinker"]
+[Event "fics server game, rated standard match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.02.14"]
+[WhiteElo "2405"]
+[BlackElo "2716"]
+[ECO "B87 Sicilian, Sozin with ...a6 and ...b5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 g6 11. f3 O-O 12. Kh1 Nbd7 13. Bg5 Qc5 14. Be3 Qc7 15. Bxe6 fxe6 16. Nxe6 Qc4 17. Nxf8 Bxf8 18. Rfc1 b4 19. Nb1 Qe6 20. Bd4 d5 21. exd5 Qxd5 22. Qh4 g5 23. Qf2 Bb7 24. c4 Qf5 25. Nd2 Ne5 26. Qe3 Nd3 27. Rf1 Re8 28. Ne4 Nxe4 29. fxe4 Nf4 30. exf5 Rxe3 31. Bxe3 Nxg2 32. Kg1 Nxe3 33. Rfc1 Bc5 34. Kf2 Nc2+ 35. Kg3 Nxa1 36. Rxa1 h5 37. Rd1 Bb6 38. c5 Bxc5 39. Rd8+ Bf8 40. h4 g4 41. Kf4 Bc6 42. Rc8 Bd5 43. b3 Kf7 44. Rd8 Bf3 45. f6 Bc5 46. Rh8 Bd6+ 47. Ke3 Bc6 48. Rxh5 g3 49. Rg5 
+
+
+[White "ArasanX"]
+[Black "PawnyX"]
+[Event "fics server game, rated blitz match"]
+[Site "Internet Chess Server: freechess.org 5000"]
+[Date "2010.03.19"]
+[WhiteElo "2327"]
+[BlackElo "2266"]
+[ECO "B90 Sicilian, Najdorf, Lipnitzky attack"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. O-O b5 8. Bb3 Be7 9. Qf3 Qb6 10. Be3 Qb7 11. Qg3 b4 12. Na4 Nbd7 13. f3 O-O 14. Rac1 Ne5 15. Nb6 Nh5 16. Qe1 Qxb6 17. Nxe6 Qb8 18. Nxf8 Kxf8 19. g4 Nf6 20. g5 Ne8 21. Qh4 Kg8 22. f4 Ng6 23. Qg3 Qb5 24. a4 bxa3 25. bxa3 Bd7 26. Bd4 Qe2 27. f5 Ne5 28. f6 Bd8 29. fxg7 Qxe4 30. Rf4 Qe2 31. Re1 Qd2 32. g6 hxg6 33. Rxe5 Bf6 34. Rxe8+ Bxe8 35. Bxf6 Qd1+ 36. Rf1 Qh5 37. Qxd6 Qg4+ 38. Kf2 Bb5 39. Re1 Qf5+ 40. Kg3 g5 41. Bxf7+ Kxf7 42. Re7+ Kg8 43. Be5 Bc4 44. Qc6 Qxe5+ 45. Rxe5 Ra7 46. Qe8+ Kh7 47. g8=Q+ Bxg8 48. Rxg5 Bf7 49. Qe4+ Kh6 50. Qh4+ Bh5 51. Qxh5# 
+
+

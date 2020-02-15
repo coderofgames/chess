@@ -1,0 +1,137 @@
+problems with EPN_to_PGN
+------------------------
+
+
+4. need to select what is promoted - and add this to epntogpn i.e. d1=Q
+
+
+
+
+Bugs
+----
+
+possibly some extra white space on pgns saved to disk
+might want to handle dollar symbols at some stage
+percent symbol -- low priority since it is mainly unused
+
+graphics -- need to show game data above notation
+graphics -- need to have the notation text remove the curly braces
+graphics -- faster text window -- virtual window calculated and redraw only replaces the last selected and next selected
+
+
+
+need to add correct handling of !! symbols
+
+//IMPORTANT:: PGNLoad is failing on double comments of the form
+//1.e4 {[comment]}{[comment 2.16]} 
+//I think this is simply the need to detect the '{' and push through to the next loop some how.
+// This was finally solved by doing the simply job of writing a better tokenizer
+
+
+bug on variations added to root ... somehow overwrites sometimes
+need delete variation
+
+//fixed: bug on focus from variation window in mdi
+
+// added bitmaps buttons for analysis window
+// added multi-pv mode switching
+	todo - improvements
+//		add 1 string for each pv, to keep the window output stable
+		add more features
+//		get gameplay mode working
+//		do analysis for player making moves
+//		browse through moves	
+
+
+
+//- scroll to 0,0 on LoadPGN 
+
+//IMPORTANT: Need to set different Aui manager layouts when tab is clicked.
+ 
+
+//problem with ... whitevariation-blackvariation ... its put as another mainline
+// SOLVED at least for black variations
+
+//Engine is working.
+//current problems ...
+//beautify the window
+//multiple sets of pv's can be displayed ... one string per pv
+//text at the top of the window
+
+
+//NEW...
+//Check detection is bad, need to look for checkmate instead and return checks
+// FIXED: The detection problem stems again from the bCaptured flag ... needed to make sure 
+
+
+
+
+//Want "NEW GAME" this means multiple PGN loads, 
+
+//if a pgn is loaded, then create a new session
+//if nothing is loaded, then create an additional game in the current session
+
+
+
+//list of filenames stored for each sessions
+save temporary files
+//huge database viewport
+
+//CLOCKS!
+// imported LCD window
+possible ICC connection?
+//parse engine Kibitz output
+//Load Multiple Engines
+
+
+IMPORTANT TASKS ...
+-------------------
+1) Spawn Multiple Boards
+//2) Create/refresh new game
+//3) Undo action (e.g. delete)  --not really needed
+//4) Redo action
+
+Ideas (maybes)
+--------------
+temporay data directory, for files saved during play ... i.e. load game, edit game, select other game, go back to previous game (and fens are gone, so the data is regenerated but the variations are messed up if added to the end)
+
+
+
+stack of instructions
+---------------------
+e.g. 
+instruction   id      data1    at pos in tree
+-----------------------------------------------
+makemove     num     e2e4      14. variation Nd5 16. whites move
+
+
+means insert e2e4 in move 14 variation Nd5 at move 16 for whites move
+
+
+created move stack contains meta data, the moves are remade if undone
+
+deleted subtree stack...
+-----------------------
+if a variation is deleted perhaps the entire subtree should be stored in a type of stack.
+the deleted subtree is simply cut from the tree and stored in a stack
+
+instruction    id     at move     isVariation     move        color
+-----------------------------------------------------------------------
+deleteSubTree  num       15       true             Nbd7       black
+
+subtree stack contains
+
+deleted items
+-------------
+15 ... Nbd7
+3...f4
+
+
+etc
+then Nbd7 and completed subtree can be inserted into a variation of black for move 15.
+
+
+
+
+
+

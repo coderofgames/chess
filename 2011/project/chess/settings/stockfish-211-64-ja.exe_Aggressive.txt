@@ -1,0 +1,26 @@
+CHECK "Use Search Log" 0
+STRING "Search Log Filename" 
+STRING "Book File" 
+CHECK "Best Book Move" 0
+SPIN "Mobility (Middle Game)" 100
+SPIN "Mobility (Endgame)" 100
+SPIN "Passed Pawns (Middle Game)" 100
+SPIN "Passed Pawns (Endgame)" 100
+SPIN "Space" 100
+SPIN "Aggressiveness" 100
+SPIN "Cowardice" 100
+SPIN "Minimum Split Depth" 4
+SPIN "Maximum Number of Threads per Split Point" 5
+SPIN "Threads" 2
+CHECK "Use Sleeping Threads" 0
+SPIN "Hash" 32
+CHECK "Ponder" 1
+CHECK "OwnBook" 1
+SPIN "MultiPV" 1
+SPIN "Skill Level" 20
+SPIN "Emergency Move Horizon" 40
+SPIN "Emergency Base Time" 200
+SPIN "Emergency Move Time" 70
+SPIN "Minimum Thinking Time" 20
+CHECK "UCI_Chess960" 0
+CHECK "UCI_AnalyseMode" 0

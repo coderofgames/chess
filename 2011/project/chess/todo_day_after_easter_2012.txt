@@ -1,0 +1,127 @@
+Active Games Management
+
+1.) clear game analysis buffer - in between engine match games and when an engine is loaded.
+
+//2) merge all selected games 
+	- Undo Command
+
+//3) fix delete all selected games
+
+4) autosave sessions
+
+5) search filters - see other list
+
+6) Select all from same event ... this then can be used with various things, including maybe ELO calculation, view table etc
+
+7) stats on selected games
+
+8) Smilies !
+	- can add smilies to games, i.e. My Game
+
+9) Set Header Data for all selected items
+	- i.e. event, site, date, 
+
+10) Set merge root.
+	work on merging two trees now ...
+
+11) Add Game to the Database ...
+	1) sort database by white name (save orginial order before sort?)
+	2) find the name, if the name isn't found, insert , else for each game of that name, if blacks name is the same then compare moves
+	3) if the moves are the same don't insert, else if the new one has variations, then add the tag for annnotated game, stick the game into
+		the annotated games DB.
+	4) Restore originial order.
+
+12) Update a DB game - similar to adding a game
+
+13) Sort the active games panel ... ?
+
+14) Search in DB for similar games
+
+15) Save Selected games as PGN Database, or Save Selected Games Into MAIN Database!!!
+
+16) Save Session information ... this indexes the Database games, and remembers what was searched for ...
+
+17) Use old searches for managing the new search (search suggestions)
+
+18) Batch Analysis
+	- need Database of Batch Analysis sessions ...
+	- 
+
+
+Database Games Management
+
+1) Loading a game that has annotation
+	- message box, "this game has annotations, would you like to load them? Clicking no will load only the mainline"
+
+2) Find needs to be implemented
+
+3) Categorize pawn structures
+
+4) material imbalance search 
+
+5) upgrade position search to filter by pawn structure, unreachable positions - needs research
+
+6) Use  3rd party executable on Selection - possibly CQL, possibly BayesElo, 
+	a) Database exports selection as PGN
+	b) Executable is then loaded and filename of saved PGN is loaded.
+	c) Results are printed back to the user.
+
+7) Load All games in current View (warning about RAM, perhaps put a size limit on this)
+
+8) On Insert Game ... same procedure as above with "Add Game to the Database".
+
+9) Multi-threading
+	- need two threads to perform search, one for each half of the buffer, is this safe?
+
+//10) VM files need to be reinvented
+
+11) Saved Cache of Engine Analysed Database Positions!!!
+maybe
+
+12) Need a progress dialog box.
+
+13) Delete / remove / administor a Database Game
+
+14) 
+
+
+===================================================
+
+wxWindowDisabler -- NEED THIS FOR LOTS OF THINGS, ANY TIME THE APP NEEDS TO GAIN CONTROL
+
+Engine Match Management
+
+//1) Make sure the correct name is written for who plays white/black
+	ready for testing
+
+2) Ajourn the game if it is drawn - button (some user settings, moves at the same score theshold near zero, after a certain ply)
+
+3) Tournament ... make the tournaments happen
+
+4) View the results page - this needs to be in accessable memory, not a popup tempory 
+	- when a game finishes the window can be recreated DYNAMIC UPDATE
+
+5) Tournament Cross tables
+	- similar to game tables, see web resources and books for how to set them up.
+
+
+6)  Experimental stuff ...
+	- one computer uses a polyglot book, the other can use the DB ??? "pause clock during Database search"
+
+7) CLEAR THE BUFFER FOR MOVES!
+
+
+8) Clean up the interface for engine matches in the dialog, checkboxes are confusing.
+
+
+//
+
+Database
+------------
+
+1) Plot a chart ... show rating distribution (for current selection)
+2) Show ECO distribution (for current selection)
+3) After sorting - SAVE the sorted data buffer for faster sort next time
+4) 
+
+

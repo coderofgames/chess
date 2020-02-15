@@ -1,0 +1,69 @@
+//1. Get the DB working in  Virtual Memory Mode using the Game Index Memfile model.
+2. Sort and Search using this model by swapping the data that indexes the file, maybe even just 1 integer.
+
+---------------------- DESIGN FEATURE- -----------------------
+	- The new menu with RAM or VM mode MUST change AFTER the user uses ONE of the options ...
+	- BOTH options are available at the start.
+
+//3. IMPORTANT ... Get Event Data back into the system, AND ECO codes!
+
+//4. Long Term, sort the games by the move lists, 
+maybe even build a Tree
+
+
+5. IA: Iteractive Analysis.   (NEW)
+
+6. FA: Complete Full Analysis Dialog
+	- complete BATH ANALYSIS
+	- DISPLAY STATS ...
+
+7. Tournaments ... NEW TAB WITH DYNAMIC UPDATING TABLES
+	or ... same tab with table 
+
+8. Openings ... PROBLEM OF HAVING A TAB FOR OPENINGS, NEED A LIST OF ECO CODES! THERE ISN'T ENOUGH SPACE, SO MAYBE A DB REFERENCE TAB
+	Design ... Openings Tab
+		windows
+		- repotoire     (NEW)
+		- ECO list       ( perhaps a popup)   (NEW)
+		- Book View        ( needs a redo - see 9.)
+		- Tree Browser
+		- Board
+		- Moves
+	Design... Reference Tab
+		Windows
+		- Database View
+		- Database Tree (see 10.)
+		- Board
+		- Tree Browser	
+		- Book (optional)
+		- Moves
+		
+	
+9. Fix up the Book View window, do display ECO info, Do have the stats, but change the appearance
+
+10. DataBase Tree
+	- use hyperlinks for each mvoe
+	- have the option of NOT searching for transpositions
+	- display info for current Node (i.e. number of games that reached this position, number of wins for white, draws etc)
+	- scroll bar
+	- progress bar
+	- Need DB Optimizations for this...	
+
+11. Pipe Panel Enchancements
+//	- FIX THE ABILITY TO SCROLL THE VIEWPORT
+	- BROWSE VARIATIONS ... THIS MEANS I NEED TO CALL "BUILD RECTANGLES" to CREATE SELECTABLE RECTS FOR THE NODES.
+	- HAVE THE OPTION TO BROWSE VARIATIONS ON THE MAIN VIEWPORT OR IN AN ANALYSIS BOARD
+
+12. Graphics Enhancements
+	- HAVE THE ABILITY TO DISPLAY 
+		a) DIFFERENT ARROW TYPES
+		b) DIFFERENT BOARD TEXTURES
+		c) DIFFERENT PIECE SETS
+		//d) BOARD RECTANGLES AGAIN!
+		e) SWAP BACK TO GC MODE!
+		//f) LARGE PIECES SELECTED
+
+
+13.some functions in analysis view to display board features, i.e. attacked pieces
+
+14. Some kind of EPD viewer.

@@ -1,0 +1,374 @@
+problems with EPN_to_PGN
+------------------------
+
+New Bugs
+----------
+PGN saved =Q as the first move in a variation, why?
+	- related bug, on promotion selection the game does not update imediately when
+	the engine is running, to fix this stop the engine first.
+	- related: perhaps the bug was caused by running the engine while moving?
+
+engine running on certain position caused a crash
+	- do this and parse for checkmate 
+	- TODO - large amount of testing ... perhaps save for BATCH mode?
+
+need to make sure engines can load up and start at current position ...?
+    - this is the problem with the current move FEN
+	// look at this, I think this is solved
+
+-- komodo on won positions or for that matter any engine
+
+//-- problems with Rybka in Kibitz mode
+	-- can't replicate, keep testing this
+
+//finish the engines promotion text and unify with user input method
+
+need an overall plan for checking the validity of FEN's and PGN's loaded/pasted
+by the user.
+
+//Copy analysis to notation/game tree does not seem to insert a variation if the move is equal after blacks move
+// seems ok now, need to look for special case.
+
+//- notation ... can't select current line sometimes
+// lines from the mainline were inserting into the end of the last variation so the selection
+// code would not work
+
+//engines are bugged after Setup position
+//	-perhaps because there is no actual move
+	-- looks done, todo test
+
+Winboard engines - before xmas!!!
+
+//paste pgn is broken
+
+//refresh tree canvas on new game
+
+//refresh annotation canvas after add annotation, and clear
+
+again navigation problems after moves are made and variations are added
+
+//Text Node Buffer for notation ... 
+	- use "new" on add node to avoid staggling pointers
+
+//1st move if black starts after setup position appears to be move 0, and whites next move is 1.
+
+//wrong FEN set if tree view is traversed back up
+
+aesthetic requirement:
+	the tree view "up" node could be the move that is actually hopped to, then displaying
+	the next moves with the variations that were hopped from.
+
+occasional bug on promoting inserted variations -- need to fix.
+
+//multiple engine panels, for tournaments/ multi-kibitzing etc
+//	- small project, fresh exec sample, and try in there first.
+
+
+//copy pgn to clipboard not working ...?
+
+//When the game ends with checkmate the last move does not appear on the board until ok is clicked.
+	- this is not an issue if the option isn't set ...
+
+//paste fen -- new game
+
+//board position must start with the correct position after paste fen
+
+//board must navigate to the correct move (white or black) after paste fen
+
+//fen string must be saved into the output format
+
+// message if clipboard is empty (at least)
+
+problem when the last move has nothing in whites string or blacks string and has a result, should
+not be able to browse to this move.
+
+//problem with first move when whites move == "" because the code hops to "..." as whites move then to blacks
+//overall looking messy.
+
+//now can't escape from the base node
+
+only clear annotation window if it is time to set text
+
+low priority -- set the date in the game info dialog
+
+
+
+Board
+
+Add the coordinates to the board
+//put display coordinates in "options"
+board colors
+board colors set from options
+piece sets listed in options
+board colors in themes
+
+
+
+
+Tasks
+-----
+
+//- BIG: Need new fonts in the text display Panes
+
+- checkboxes in the ribbon bar
+- clear page 2 and add some analysis functions
+	- add glyph to move (e.g "!!")
+- add right click menus.
+
+//Create a complete solution for parsing glyphs ... 
+	- current implementation should hold until after Beta.
+
+Sound
+	
+New Important Things...
+
+Make the system play games.
+
+new windows
+//a) variation board -- class in place
+//	-- use a miniBoard - similar to the position set up board
+b) folder window     -- class in place (use 2nd listBoxPanel)
+c) databases window   -- class in place ( use 2nd listboxpanel)
+e) cp graph window    -- class in place
+
+//h) clocks window
+	//	- get clocks working with moves
+	//	- finish setting up clock into play mode, connected with making engines play games
+
+finish Engine Load/Save dialog.
+
+//finish set game info dialog
+	//-- modify date (can't set as string as restrictions apply)
+	//-- modify result
+
+create new game dialog
+themes dialog
+//options dialog
+//help
+//about engine options
+
+start batch analysis
+
+Analyze Tab ...
+	- Analyze Game ... 
+		this feature uses a progress control and analyzes each move creating the score
+
+
+create button for delete remaining moves
+
+also ... in diogens vs vxd "heavy metal game" variation 
+	for move 15...Be6 variation 16. Rad1 variation 17....f5 
+	has the problem after exf6 and Qxf6 with insert move, the variation Qxf6 was inserted as move 17.
+// is this fixed?
+Appearance ... Unify appearance changes from Ribbon and Aui manager.
+	(part of themes dialog?)
+//	Piece sets
+		- able to set multiple piece sets
+	board colors
+//	board textures
+		- place holders?
+	
+	add piece fonts to game notation
+		- font editor + special font? 
+		- need one for both white and black because 'N' cannot be both
+			the white and black knight
+	
+	Maybe have a "hide ribbon bar" function that lets users see a toolbar/menu view.
+
+Engines:
+	Send the move list to the engines.
+	Test reader system with Send Stdout to file.
+	implement modes
+	
+User
+	- Tooltips
+	- save layout configuration
+				 	- right click
+	//				- left click selects a move
+	TODO: FIX THE TREE VIEW MOVE SELECTOR, ATM THIS JUST SELECTS THE LIST ELEMENT NOT THE MOVE (For white, it works for black)
+					- hover over maybe on tree view
+				- Chessbase mode ...
+					- popup dialog,
+					- black cursor
+					- up and down keys move up and down in the notation window
+				- New Mode
+					//- Tree view has the variation root displayed
+					//	- store this somehow ... or count every time
+						-- counts every time
+					- need to redo mouse selection again
+					- up and down keys only select the tree up and down
+					- show/hide treeview toggle button
+					- 
+				//- code folds. (very important)
+				- reestablish possibility for comments in the notation window.
+				- highlight current variation
+				- set move color ...
+				- set move marker etc
+				//- change fonts of course
+				- use chesspiece notation fonts too
+				- Hide the Ribbon bar and load the Menu bar / toolbars etc.
+			
+	- Generate Canidate moves/(lines)
+
+		(perhaps use some meta data ... something that sets the color of the variation)
+	- analysis board / main board, allow user to select lines in the computer analysis window
+			
+New Ribbon bar Tabs
+	- Batch
+	- Tournament
+	- MonteCarlo?
+	- 
+
+Pipe-Dream ... Lua scripting ... allow users to create a custom tab with their favourite windows in it.
+
+//c) Setup Position panel    -- class in place
+	needs
+	--error checking
+   
+f) New Game dialog (maybe)
+
+h) Themes dialog              -- class in place
+
+//i) options dialog  - will use a settings dialog
+j) help dialog
+k) about dialog
+//l) engine options (although still WIP)
+m) wizard for batch analaysis mode
+
+Other features...
+//a) code folding
+b) cp graph				-- class in place
+		
+e) analysis tab, toolbar, batch analysis, monte-carlo etc		
+
+j) detect stalemate in loaded pgn files
+//k) always promote to Queen mode
+//l) fix the variation in separate box window --
+
+- show/hide annotation window
+- create definitive design
+
+- play button 
+
+-animate moves
+
+- list options
+	sub categories
+		////- game
+		//	- always promote to Queen
+		//	- show message when game ends (choice)
+		//	- move entry
+		//	- snap pieces to good square?
+		//	- arrows
+		//	- allow takeback
+		//	- show engine output
+		//	- show cp graph
+			
+		//- theme
+		//	- list of premade themes
+		//	- settings from old app (popup frame vars)
+		//	- Ribbon bad primary and secondary colors
+			
+		//- board
+		//	- show coordinates
+		//	- arrow style
+		//	- graphics
+		//	- colors
+		//	- piece type
+		//	- border style
+			
+		//	- background image
+		//	- mouse
+
+		//- notation
+		//	- font
+		//	- colors
+		//	- show annotation in sep window
+		///	- selector style
+		//	- pieces in notation (font etc) 
+		//- tree
+		//	- appearance
+		//	- display variation root
+		//	- move score
+		//	- navigation options
+		//	- show tree / popup
+			
+		//- general app
+		//	- toolbars?
+		//	- show window (x)
+		//	- ribbon bar or menu
+		//	- hide ribbon bar
+		//	- show active tab
+		//	- show tool tips
+		//			- pieces in notation (font etc) 
+
+		//- engine panel settings
+		//		- display custom engine buttons
+		//	- show bar in notation
+		//	- use LAN/SAN
+		//	- depth for each move
+				
+		
+	
+
+
+Bugs
+----
+
+enumerate variations bugs
+
+possibly some extra white space on pgns saved to disk
+might want to handle dollar symbols at some stage
+percent symbol -- low priority since it is mainly unused
+
+
+bug on variations added to root ... somehow overwrites sometimes
+bug on insert move into variation at the end of the variation ...i.e. after load
+
+
+	todo - engine analysis window improvements
+		add more features
+		- perhaps canvas for the text
+		- allow selection of the nodes and set the fen into the main board
+ 
+
+//Want "NEW GAME" 
+	this means multiple PGN loads?
+
+
+-- maybe
+if a pgn is loaded, then create a new session
+if nothing is loaded, then create an additional game in the current session
+
+
+
+list of filenames stored for each sessions
+save temporary files
+huge database viewport
+
+//CLOCKS!
+
+//possible ICC connection?
+
+//Load Multiple Engines
+//Use wxStopWatch
+
+IMPORTANT TASKS ...
+-------------------
+//1) Spawn Multiple Boards
+//2) Create/refresh new game
+
+
+Ideas (maybes)
+--------------
+temporay data directory, for files saved during play ... i.e. load game, edit game, select other game, go back to previous game (and fens are gone, so the data is regenerated but the variations are messed up if added to the end)
+
+
+
+
+
+
+
+
+
+

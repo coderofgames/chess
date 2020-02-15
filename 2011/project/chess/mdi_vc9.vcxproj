@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Debug|Win32">
+      <Configuration>DLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Debug|x64">
+      <Configuration>DLL Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Release|Win32">
+      <Configuration>DLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Release|x64">
+      <Configuration>DLL Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Debug|Win32">
+      <Configuration>DLL Universal Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Debug|x64">
+      <Configuration>DLL Universal Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Release|Win32">
+      <Configuration>DLL Universal Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Release|x64">
+      <Configuration>DLL Universal Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Debug|Win32">
+      <Configuration>Universal Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Debug|x64">
+      <Configuration>Universal Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Release|Win32">
+      <Configuration>Universal Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Release|x64">
+      <Configuration>Universal Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>mdi</ProjectName>
+    <ProjectGuid>{69E0D60E-59A4-589B-8BFE-4F4AF219A9CA}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vc_mswud\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vc_mswud\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vc_mswud\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vc_mswud\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vc_mswu\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vc_mswu\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vc_mswu\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vc_mswu\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">vc_mswunivud\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'">vc_mswunivud\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">vc_mswunivud\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'">vc_mswunivud\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">vc_mswunivu\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'">vc_mswunivu\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">vc_mswunivu\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'">vc_mswunivu\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">vc_mswuddll\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">vc_mswuddll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">vc_mswuddll\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">vc_mswuddll\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">vc_mswudll\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">vc_mswudll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">vc_mswudll\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">vc_mswudll\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">vc_mswunivuddll\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'">vc_mswunivuddll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">vc_mswunivuddll\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'">vc_mswunivuddll\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">vc_mswunivudll\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'">vc_mswunivudll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">vc_mswunivudll\mdi\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'">vc_mswunivudll\mdi\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS_7;WIN32;_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswud\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswud\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;gdiplus.lib;wxmsw29ud_media.lib;wxmsw29ud_propgrid.lib;wxmsw29ud_richtext.lib;wxmsw29ud_ribbon.lib;wxmsw29ud_aui.lib;wxmsw29ud_html.lib;wxmsw29ud_adv.lib;wxmsw29ud_core.lib;wxbase29ud_xml.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswud\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswud\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <Profile>false</Profile>
+      <StackReserveSize>
+      </StackReserveSize>
+      <StackCommitSize>
+      </StackCommitSize>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswud\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x64%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS_7;WIN32;_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswud\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswud\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>sqlite3.lib;d3dx9.lib;d3d9.lib;gdiplus.lib;wxmsw29ud_media.lib;wxmsw29ud_propgrid.lib;wxmsw29ud_richtext.lib;wxmsw29ud_ribbon.lib;wxmsw29ud_aui.lib;wxmsw29ud_html.lib;wxmsw29ud_adv.lib;wxmsw29ud_core.lib;wxbase29ud_xml.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswud\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswud\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <Profile>false</Profile>
+      <StackReserveSize>
+      </StackReserveSize>
+      <StackCommitSize>
+      </StackCommitSize>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswud\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINDOWS_7;WIN32;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswu\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswu\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;wxmsw29u_media.lib;wxmsw29u_propgrid.lib;wxmsw29u_richtext.lib; wxmsw29u_ribbon.lib;wxmsw29u_aui.lib;wxmsw29u_html.lib;wxmsw29u_adv.lib;wxmsw29u_core.lib;wxbase29ud_xml.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;wxmsw29u_core.lib;wxbase29u.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswu\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswu\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswu\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;C:\Program Files %28x64%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>THEME_BUILD;WINDOWS_7;WIN32;__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswu\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswu\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>sqlite3.lib;d3dx9.lib;d3d9.lib;wxmsw29u_media.lib;wxmsw29u_propgrid.lib;wxmsw29u_richtext.lib; wxmsw29u_ribbon.lib;wxmsw29u_aui.lib;wxmsw29u_html.lib;wxmsw29u_adv.lib;wxmsw29u_core.lib;wxbase29ud_xml.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;wxmsw29u_core.lib;wxbase29u.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswu\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswu\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswu\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivud\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivud\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivud\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivud\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivud\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivud\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivud\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivud\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivud\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivud\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivu\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivu\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivu\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivu\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivu\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivu\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivu\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_lib\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivu\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivu\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivu\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswuddll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswuddll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmsw29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswuddll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswuddll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswuddll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswuddll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswuddll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmsw29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswuddll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswuddll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswuddll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswudll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswudll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmsw29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswudll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswudll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswudll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswudll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswudll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmsw29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswudll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswudll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswudll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivuddll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivuddll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivuddll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivuddll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivuddll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivuddll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivuddll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivud;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29ud_core.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivuddll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivuddll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivuddll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivudll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivudll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivudll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivudll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivudll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ObjectFileName>vc_mswunivudll\mdi\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivudll\mdi.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\..\..\lib\vc_dll\mswunivu;.\..\..\include;.;.\..\..\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>wxmswuniv29u_core.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>vc_mswunivudll\mdi.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>.\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>vc_mswunivudll\mdi.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <OutputFile>vc_mswunivudll\mdi_vc9.bsc</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseGraphicsBoard.cpp" />
+    <ClCompile Include="BatchAnalysisDialog.cpp" />
+    <ClCompile Include="Bitboard_LB.cpp" />
+    <ClCompile Include="BoardCanvas.cpp" />
+    <ClCompile Include="BookListDialog.cpp" />
+    <ClCompile Include="clockthread.cpp" />
+    <ClCompile Include="ColorPallete.cpp" />
+    <ClCompile Include="D3D9Base.cpp" />
+    <ClCompile Include="D3D9Board.cpp" />
+    <ClCompile Include="D3D9VariationBoard.cpp" />
+    <ClCompile Include="DebugPrintf.cpp" />
+    <ClCompile Include="ECO_FilterDialog.cpp" />
+    <ClCompile Include="EngineAnalysisCanvas.cpp" />
+    <ClCompile Include="EngineListDialog.cpp" />
+    <ClCompile Include="EngineLoadingScreen.cpp" />
+    <ClCompile Include="EngineMatchDialog.cpp" />
+    <ClCompile Include="FAWizard.cpp" />
+    <ClCompile Include="FindDialog.cpp" />
+    <ClCompile Include="FullAnalysisDialog.cpp" />
+    <ClCompile Include="FullAnalysisReportCanvas.cpp" />
+    <ClCompile Include="GameAnalyser.cpp" />
+    <ClCompile Include="GameClock.cpp" />
+    <ClCompile Include="GameDataViewPanel.cpp" />
+    <ClCompile Include="GameInfoDialog.cpp" />
+    <ClCompile Include="GridFrame.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="lcdwindow.cpp" />
+    <ClCompile Include="ListBox.cpp" />
+    <ClCompile Include="MatchResultsCanvas.cpp" />
+    <ClCompile Include="MatchResultsPanel.cpp" />
+    <ClCompile Include="mdi.cpp" />
+    <ClCompile Include="MemFile.cpp" />
+    <ClCompile Include="MemoryFilePGN.cpp" />
+    <ClCompile Include="MiniBoardCanvas.cpp" />
+    <ClCompile Include="MiscUtils.cpp" />
+    <ClCompile Include="MoveDataCanvas.cpp" />
+    <ClCompile Include="MyListPanel.cpp" />
+    <ClCompile Include="MyPipePanel.cpp" />
+    <ClCompile Include="NewGameDialog.cpp" />
+    <ClCompile Include="NotationCanvas.cpp" />
+    <ClCompile Include="NotationFrame.cpp" />
+    <ClCompile Include="OptionsDialog.cpp" />
+    <ClCompile Include="OptionsFrame.cpp" />
+    <ClCompile Include="PersonalityListDialog.cpp" />
+    <ClCompile Include="PGKey.cpp" />
+    <ClCompile Include="PGLookup.cpp" />
+    <ClCompile Include="PlayVsComputerDialog.cpp" />
+    <ClCompile Include="PositionSetupFrame.cpp" />
+    <ClCompile Include="PromotionSelectionDialog.cpp" />
+    <ClCompile Include="RenderTimer.cpp" />
+    <ClCompile Include="ScoreGraph.cpp" />
+    <ClCompile Include="ScorePanel.cpp" />
+    <ClCompile Include="SetDateDialog.cpp" />
+    <ClCompile Include="ThemesDialog.cpp" />
+    <ClCompile Include="TimeControlSettingsDialog.cpp" />
+    <ClCompile Include="TreeCanvas.cpp" />
+    <ClCompile Include="TreesStatsCanvas.cpp" />
+    <ClCompile Include="UCIEngineOptionsDialog.cpp" />
+    <ClCompile Include="VariationBoardCanvas.cpp" />
+    <ClCompile Include="VariationBoardFrame.cpp" />
+    <ClCompile Include="VariationSelectionFrame.cpp" />
+    <ClCompile Include="WorkerThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseGraphicsBoard.h" />
+    <ClInclude Include="BaseVariationBoard.h" />
+    <ClInclude Include="BatchAnalysisDialog.h" />
+    <ClInclude Include="bitboard_defs.h" />
+    <ClInclude Include="BitBoard_LB.h" />
+    <ClInclude Include="BoardCanvas.h" />
+    <ClInclude Include="BookListDialog.h" />
+    <ClInclude Include="ByteBoard.h" />
+    <ClInclude Include="ChessSquare.h" />
+    <ClInclude Include="clockthread.h" />
+    <ClInclude Include="ColorPallete.h" />
+    <ClInclude Include="D3D9Base.h" />
+    <ClInclude Include="D3D9Board.h" />
+    <ClInclude Include="D3D9VariationBoard.h" />
+    <ClInclude Include="DebugPrintf.h" />
+    <ClInclude Include="ECO_FilterDialog.h" />
+    <ClInclude Include="EngineAnalysisCanvas.h" />
+    <ClInclude Include="EngineListDialog.h" />
+    <ClInclude Include="EngineLoadingScreen.h" />
+    <ClInclude Include="EngineManager.h" />
+    <ClInclude Include="EngineMatchDialog.h" />
+    <ClInclude Include="EnginePersonality.h" />
+    <ClInclude Include="ExpandableArray.h" />
+    <ClInclude Include="FAWizard.h" />
+    <ClInclude Include="FenTree.h" />
+    <ClInclude Include="FindDialog.h" />
+    <ClInclude Include="FullAnalysisDialog.h" />
+    <ClInclude Include="FullAnalysisReportCanvas.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameAnalyser.h" />
+    <ClInclude Include="GameClock.h" />
+    <ClInclude Include="GameDataViewPanel.h" />
+    <ClInclude Include="GameInfoDialog.h" />
+    <ClInclude Include="GameScoreGraphCanvas.h" />
+    <ClInclude Include="GridFrame.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="lcdsampleframe.h" />
+    <ClInclude Include="lcdwindow.h" />
+    <ClInclude Include="ListBox.h" />
+    <ClInclude Include="MatchResultsCanvas.h" />
+    <ClInclude Include="MatchResultsPanel.h" />
+    <ClInclude Include="MCTS_Analysis.h" />
+    <ClInclude Include="mdi.h" />
+    <ClInclude Include="MemFile.h" />
+    <ClInclude Include="MemoryFilePGN.h" />
+    <ClInclude Include="MiniBoardCanvas.h" />
+    <ClInclude Include="MiscUtils.h" />
+    <ClInclude Include="MoveDataCanvas.h" />
+    <ClInclude Include="MyListPanel.h" />
+    <ClInclude Include="MyPipePanel.h" />
+    <ClInclude Include="MyXboardPipePanel.h" />
+    <ClInclude Include="NewGameDialog.h" />
+    <ClInclude Include="NotationCanvas.h" />
+    <ClInclude Include="NotationFrame.h" />
+    <ClInclude Include="OptionsDialog.h" />
+    <ClInclude Include="OptionsFrame.h" />
+    <ClInclude Include="PersonalityListDialog.h" />
+    <ClInclude Include="PGKey.h" />
+    <ClInclude Include="PGLookup.h" />
+    <ClInclude Include="PgnLoad.h" />
+    <ClInclude Include="PlayVsComputerDialog.h" />
+    <ClInclude Include="PolyglotBookManager.h" />
+    <ClInclude Include="PositionSearchDialog.h" />
+    <ClInclude Include="PositionSetupFrame.h" />
+    <ClInclude Include="PromotionSelectionDialog.h" />
+    <ClInclude Include="RenderTimer.h" />
+    <ClInclude Include="ScoreGraph.h" />
+    <ClInclude Include="ScorePanel.h" />
+    <ClInclude Include="SetDateDialog.h" />
+    <ClInclude Include="ThemesDialog.h" />
+    <ClInclude Include="TimeControlSettingsDialog.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TreeCanvas.h" />
+    <ClInclude Include="TreeStatsCanvas.h" />
+    <ClInclude Include="UCIEngineOptionsDialog.h" />
+    <ClInclude Include="VariationBoardCanvas.h" />
+    <ClInclude Include="VariationBoardFrame.h" />
+    <ClInclude Include="VariationSelectionFrame.h" />
+    <ClInclude Include="WorkerThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mdi.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

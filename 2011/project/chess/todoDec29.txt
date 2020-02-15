@@ -1,0 +1,362 @@
+[TODO:]
+
+29 Dec 2011
+
+- 1. finish error checking on user input.		*1
+	//completed move numbers,
+	//ready for testing.
+	//test 1 failed.
+	//test 2 passed.
+	ready for retest
+	
+- 2. finish testing
+- 3. try to iron out any more animation flaws		*2
+	//Ready for testing
+	//1st tests passed with recovery possibility after user selects new game.
+	Ready for retest
+	// found another bug tried to iron out problem with more error checking in animation code
+	Ready for testing
+- 4. add toolbar buttons
+	- 1) batch analysis tab				*1
+	- 2) complete the standard analysis tab		*1
+	- 3) add glyphs					*1
+	- 4) database functionality ... *1
+		- add elememt		*1
+		- delete element	*1
+			Ready for testing
+			- need to implement buttons
+		- compress		*3
+			- requires new GenLegalMoves() function
+		- save in pgn form		*1
+		- save in compressed form	*3
+		- sort list			*3
+		- search list			*2
+		- Merge 2 Games
+			need to implement UI feature
+			Ready for testing
+		- Merge All Games
+			Ready for testing
+		- Sort by ECO
+
+- 5) do gen legal moves bit             *1
+	function written, 
+	ready for testing (after some more implementation)
+
+- 6) winboard engines again with faster code for makeSANstring     *3
+//- 7) database view, remove bitmaps from the list                  *2
+	Ready for testing.
+
+	- hide the caption from the notation pane    *3
+	
+- 8) opening keys.            *1
+	Ready for testing
+	tested ready for retest
+- 9) load opening books + display information           *1
+- 10) dialog for full analysis - solve problem of scoring moves     *1
+	// this must be priority #3 because
+	a) the BatchAnalysis does not need to be implemented in basic version.
+	design?
+	//needs ok and cancel
+	//needs time per move / depth
+	//needs options to collect depth data?
+	extend search (extra options/advanced tab?)
+	
+	-- THIS can be the dialog for the individual move done on a search, other options can be added
+	 ... root dialog says ... select Engine for analysis
+				... select personality
+				... log matches / match rates
+				... guess at players strength
+				... find weakness in player
+				... find strength in player
+				... is player agressive in position X?
+				... classify best repotoire
+				... find difficult lines
+				... find calculation errors
+				... ideal settings for different engines ... engine A) passive. engine B) aggressive
+				... any novelties, find weakness
+				++
+				NB: some of these are from List Analysis.
+
+				list analysis
+				- repotoire
+				  - list alternative book moves
+				  {- search for novelties
+				  {- analyze book moves
+				  - show weaker lines
+				  - trust pre-analysis scoring
+				  
+				engines
+				- list of engines
+				  - add from network?
+				  - execute concurrently (not reccomended for 1 pc)
+				for each engine, num PV's, personality, 
+				- quick scan first (engine to use/both) (?radio)
+				phase 2 scan, engine choice
+				phase 3 scan, engine choice
+				play engine vs engine games {playoffs} 
+					- generate suggestions
+					- auto generate 
+					- perform monte carlo after scan
+					- use two engines for monte carlo?		
+						engine a) engine b) {switch sides?: engines play both sides of each generated position}
+					
+							
+	
+				
+		
+
+- 11) find more cases of user crashing app / causing it to fail     *1
+	- see below repeat of this bug, found some errors
+- 12) remove scripts tab 	*2
+- 13) play test the engine / set strengths etc    *1
+	- resign button
+	
+- 14) fix up the pipe panel behaviour in game mode, disable unused buttons   *2
+	- is the engine actually playing right now? 
+		- if yes then don't allow users to use the options.
+		- perhaps make a button to stop the game first.
+
+	// otherwise ready for testing
+
+- 15) put the annotation back in the notation					*1
+	ready for testing
+- 16) do some more piece themes, consider algorithmic solution			*1 | *3
+	
+- 17) create some UI themes, set them up in the options				*3
+- 18) Load/Save options								*1
+	- done ready for testing
+- 19) Engine database, save the list + any personalities / default settings etc.	*1
+- 20) display more info at top of notation with an option				*3
+- 21) finish d3d mode			
+	// complete						*1
+- 22) mac and linux builds								*1
+- 23) fix code that does the setup position 						*1
+- 24) fix any problems on loading pgn's that aren't in the start position		*1
+- 25) Draw icons									*1
+//- 26) fonts shrink on minimal board / border grows.			*3
+	//Ready for Testing
+	// working crap
+
+- 27) optimize renderer + code cleanup.					*2
+- 28) archive data from stored pv's / per depth / per pv etc		*1
+	- view log
+- 29) use a plot to show the bar chart.			*1
+	//	- in progress
+	//ready for testing
+	//draw move numbers at bottom of chart
+	//draw scale axis
+	//scroll the chart with the scrollbar	(canned)
+	ready for testing
+
+- 30) arrows + highlight squares			*2
+- 31) Load board textures as big files and chop them into squares in the program not in a separate util. *3
+- 32) Media view,			*1
+	- load from disk		*1
+	- create playlist		*2
+	- try to increase size of youtube videos	*3
+	
+- 33) Try to find more errors to check and recover from them					*1
+	- found some errors in paste pgn and merge pgn from clipboard/disk
+	
+//- 34) resolve issue of what happens to the current game list when a bad pgn is loaded.   *1
+	//Ready for testing
+	// half working, some rare use cases.
+	// case of user defined database solved (repeated use of AddGame)
+	// case of database with a typo 1st test passed
+	Ready for retest.
+
+- 35) test more pattern matching errors / check the numbers
+	Ready for test
+
+- 35) perspectives - keep track of users current perspective settings	*2
+	//Ready for testing
+	// working stable
+	- load defaults
+	- 
+//- 36) unset animation timer when user does something
+	//Ready for testing
+	// working stable
+
+- 37) add more right click popup menus
+	- tree pane, options, short cut to options
+
+- 38) virtual display viewport, stop calling new and use addnode instead    #3
+	- perhaps not possible, static array of Node* for delete?
+	seems ok for smaller files, ready for testing on larger files
+
+- 39) some variation terminal nodes do not allow traversal back upwards using the tree.
+	
+
+- 40) remove completely or fix the mouse interface for the tree pane.
+
+//- 41) include pastePGN in the merge/error checking functionality ...
+	//Ready for testing
+	test 1 complete, paste pgn is working and needs to add to database
+	also, merge pgn from clipboard needs to be error checked.
+
+- 42) pattern match the file format more accurately.
+	// handles jargon on first position in file
+	check for spaces between header and move list, and spaces between move list and 
+	move numbers done, 
+	// ready for testing
+	virtual file loader 50% complete
+
+- 43) Load PGN for ECO codes.
+	//- finish merge game via move-merge pattern
+	//- remove result strings
+	- debug + test
+	- make automated load
+	- make sure all names are in the annotations (also task 57)
+	- Remove the NULL nodes!
+	- reimplement the delete of corrupted pgn games
+	- comparison of moves attempted
+	  ready for test.
+
+- 44) Increase the virtual size in pixels of the text
+	// done, increased to 100,000
+	// ready for testing
+
+- 45) rewritten merge pgn code completely.
+	- need to remove null nodes
+	ready for testing
+
+- 46) make dialog for user to decide what to do with corrupt game.	# 3 default behaviour is to delete the game.
+
+- 47) attempt to finish options frame				#1
+	- solution - remove unused options
+
+- 48) after bad pgn format crash the list viewport is smaller than needed...fix.   #3
+	- try m_mgr.Update()
+	( note also, when using m_mgr.Update() try to reset animation)
+
+- 49) print the result string after the notation.
+	// ready for testing
+	// double strings on white/black mates (only one side find out which one):
+	//white checkmates, result printed twice and whites move does not show up
+	ready for retest
+
+
+- 50) problem in database viewport / app siezure
+	ready for retest
+	//recreated the perspective
+
+- 51) recreate perspective for other panes...
+
+- 52) after stopping the game from playing through the list and pressing play-game the play-game-through list continues
+	// ready for testing
+
+- 53) look at graphics for the current move pane
+
+- 54) Create board for planning
+	- abstraction of current classes
+
+- 55) try to make it fun?
+	- big philosophical question, how?
+
+- 56) Draw Detection!
+	// note: use priority system
+	- 1) stalemate 
+		// done ready for testing
+	- 2) repetition
+		//Todo!		#1
+		How?
+		//Hash? or simply another way
+		done, test complete
+		//create a hash key or perfect key and compare up to 50
+		//compare occupancy bitboards in a datastructure then compare piece squares.
+
+	- 3) draw by 50 move
+		//- architecture in place, needs to make sure it finds this for engine matches and human vs engine games
+		//- need to make sure the FEN stores the ply not the number of moves
+			// fixed the FEN
+				Ready for testing.
+	- 4) draw by time loss + insufficient material
+		//- keep track of material in current game
+		//- use the FEN
+		ready for testing
+	- 6) draw by lack of material ... King + Knight vs King for example
+		//- use the FEN
+		//- track this for player and engine vs engine
+		done, ready for testing
+	
+
+//- 57) find missing strings from merge all - add them, make sure all nodes still contain info
+	- ready for retest
+
+- 58) pgn's can't all have text on the same line, split the lines,.	#2
+
+//- 59) Engines must update captions when switching tabs
+	//ready for testing
+
+//- 60) another checkmate problem.
+	//- solved so far.
+
+//- 61) make sure there is no animation in engine vs engine games.
+	// done ready for testing
+
+62) make sure 0.0 looks like 0.0 not 00
+
+63) Engine vs Engine matches - resolve issues
+	//- create a dialog
+	//- bullet speed, change the update time for the pipe panel
+	//	- in set time controls, make a list or submenu of normal standard time controls.
+	- log the game
+	//- display the score_cp
+	//- set the score_cp into the move.
+	ready for testing
+
+64) In engine matches make the text scroll to cursor
+	// done
+	// ready for testing
+
+65) Engine List dialog, needs to be fixed.
+	// best pragmatic solution
+	// list of active engines, button to show hidden ones
+	// list of unloaded engines
+
+66) New Game Dialog - connect all the UI elements and update relevant UI elements.
+	// ready for testing
+
+67) Glyphs again
+	// add gallery
+
+68) Add Buttons for resign game, ajourn game
+
+69) Improve the clock 
+	- count in milli seconds
+	// still todo
+	- graphics for flags/icons etc
+	// still todo
+	//- add incremement
+		// ready to test increment
+
+70) winboard engine panel
+
+71) consider removing the sprintf's from the text calculation       #3
+
+72) engine games - flicker on updating the notation			#3
+
+73) remember users preferred numPV's				#3
+
+74) load recent game(s)
+
+75) write game result into header				#3
+	// ready for testing
+	- only write mainlines.
+
+//76) checktime in millisceonds done.
+	//ready for testing
+	//- so far it is unclear whether the timer is working properly.
+	ready for testing
+
+77) dump user preferred settings to disk.
+
+79) move all calls to recreatelist() to the database tab swap
+
+80) Set numbers into DB list (for sorting)
+	// done, ready for retest
+	//todo, sort the list.
+	done, ready for tesing
+
+new database perspective code
+layout2|name=test1;caption=Pane Caption;state=2099198;dir=1;layer=2;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=419;floaty=143;floatw=37;floath=38|name=test2;caption=options;state=6293500;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=150;minw=300;minh=150;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=683;floath=728|name=Engine_Panel;caption=Engine;state=6293502;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=618;besth=150;minw=300;minh=150;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Engine_Panel_2;caption=Engine;state=6293502;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=618;besth=150;minw=300;minh=150;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test4;caption=Pane Caption;state=2099196;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=100;besth=80;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-3;floaty=309;floatw=116;floath=114|name=test5;caption=Tree Browser;state=2044;dir=2;layer=2;row=0;pos=0;prop=86399;bestw=3;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=8;floaty=144;floatw=37;floath=54|name=moveData;caption=;state=2044;dir=2;layer=2;row=0;pos=1;prop=41035;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1211;floaty=147;floatw=37;floath=54|name=clock_pane;caption=Game Clock;state=6293502;dir=2;layer=0;row=1;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test7;caption=Dummy1;state=6293502;dir=4;layer=1;row=0;pos=0;prop=98623;bestw=100;besth=29;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test9;caption=Media;state=6293502;dir=3;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=100;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test10;caption=Game Annotation;state=2099198;dir=3;layer=1;row=0;pos=0;prop=100000;bestw=133;besth=90;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test11;caption=Fixed Pane;state=2099198;dir=3;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=test12;caption=Graphical Pane;state=23070716;dir=1;layer=1;row=0;pos=0;prop=173943;bestw=600;besth=600;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=7;floaty=531;floatw=616;floath=634|name=notebook_content;caption=Notation;state=1792;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=settings;caption=Dock Manager Settings;state=2099139;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=479;besth=185;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=grid_content;caption=;state=770;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=133;besth=233;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=tree_content;caption=;state=770;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=160;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sizereport_content;caption=;state=1794;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=80;besth=80;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=text_content;caption=;state=770;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=133;besth=90;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=html_content;caption=;state=770;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=383;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=tb1;caption=Big Toolbar;state=2106098;dir=1;layer=10;row=1;pos=264;prop=100000;bestw=240;besth=42;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=tb2;caption=Toolbar 2;state=2106098;dir=1;layer=10;row=1;pos=0;prop=100000;bestw=262;besth=28;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=22|dock_size(1,1,0)=310|dock_size(4,2,0)=645|dock_size(4,3,0)=302|dock_size(2,2,0)=40|
